@@ -2,6 +2,8 @@ import React from 'react'
 import { createMuiTheme, responsiveFontSizes, MuiThemeProvider } from '@material-ui/core'
 import CssBaseline from '@material-ui/core/CssBaseline'
 
+import Rotas from './rota'
+
 function app() {
   const Dark = true
   const tipoPallet = Dark ? 'dark' : 'light'
@@ -22,6 +24,7 @@ function app() {
   return(
     <MuiThemeProvider theme = {theme}>
       <CssBaseline/>
+      <Rotas/>
     </MuiThemeProvider>
   )
 }
