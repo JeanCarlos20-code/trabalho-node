@@ -35,23 +35,12 @@ const Cabecalho = () => {
                         noWrap
                         className={classes.toolbarTitle}
                     ></Typography>
-                    <Label 
-                    align = "center">
-                        Comercio de carros 
-                    </Label>
                     <Button variant="contained"
                             color="secondary"
                             size="small"
-                            href="/login">
-                                SING IN
-                    </Button> 
-                    <Button variant="contained"
-                            color="secondary"
-                            size="small"
-                            href="/login">
-                                SING OUT 
-                    </Button>
-                    
+                            href="#/login">
+                                Entrar / Sair
+                    </Button>                    
                 </Toolbar>
             </AppBar>
         </>

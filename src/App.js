@@ -2,7 +2,7 @@ import React from 'react'
 import { createMuiTheme, responsiveFontSizes, MuiThemeProvider } from '@material-ui/core'
 import CssBaseline from '@material-ui/core/CssBaseline'
 
-import Rotas from './rota'
+import Rotas from './rotas'
 
 function app() {
   const Dark = true
